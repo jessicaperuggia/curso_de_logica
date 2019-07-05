@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha () {
+
+		document.write ("<br>");
+	}
+	function mostra (frase) {
+
+		document.write (frase);
+		pulaLinha ();
+	}
+
+	var anoAtual = 2019
+	var anoInicial = 1500
+	var media = (anoAtual - anoInicial) / 28
+
+	mostra ("Passaram,"+ Math.round (media) +" gerações.")
+
+</script>
